@@ -6,5 +6,7 @@ jobs:
       steps:
        - name: Print greeting
          run: echo "Hello World!"
-       - name: Say a line
-         run: echo "Nice to see you"
+       - name: Say few line
+         run: |
+             echo "Nice to see you"
+             echo "Welcome to Github actions"
